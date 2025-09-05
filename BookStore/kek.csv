@@ -1,0 +1,61 @@
+Book_ID;Book_Name;Publisher;ISBN;Edition;Number_of_pages;Sales;City;Price
+101;To Kill a Mockingbird;Grand Central Publishing;978-0-446-31078-9;1st;281;150;New York;12,99
+101;To Kill a Mockingbird;Grand Central Publishing;978-0-446-31078-9;1st;281;95;Chicago;12,99
+101;To Kill a Mockingbird;Grand Central Publishing;978-0-446-31078-9;1st;281;120;Los Angeles;12,99
+101;To Kill a Mockingbird;Grand Central Publishing;978-0-446-31078-9;1st;281;80;Seattle;12,99
+102;1984;Penguin Classics;978-0-14-103614-4;Reprint;328;225;Chicago;9,99
+102;1984;Penguin Classics;978-0-14-103614-4;Reprint;328;180;New York;9,99
+102;1984;Penguin Classics;978-0-14-103614-4;Reprint;328;140;Boston;9,99
+102;1984;Penguin Classics;978-0-14-103614-4;Reprint;328;110;San Francisco;9,99
+103;Pride and Prejudice;Modern Library;978-0-679-78336-9;Revised;279;180;Seattle;7,50
+103;Pride and Prejudice;Modern Library;978-0-679-78336-9;Revised;279;150;Boston;7,50
+103;Pride and Prejudice;Modern Library;978-0-679-78336-9;Revised;279;95;Austin;7,50
+103;Pride and Prejudice;Modern Library;978-0-679-78336-9;Revised;279;130;Portland;7,50
+104;Dune;ACE;978-0-441-17271-9;Anniversary;896;95;Boston;18,99
+104;Dune;ACE;978-0-441-17271-9;Anniversary;896;120;Seattle;18,99
+104;Dune;ACE;978-0-441-17271-9;Anniversary;896;85;Denver;18,99
+104;Dune;ACE;978-0-441-17271-9;Anniversary;896;110;San Francisco;18,99
+105;The Hobbit;Houghton Mifflin;978-0-547-95122-1;Illustrated;300;210;Austin;14,99
+105;The Hobbit;Houghton Mifflin;978-0-547-95122-1;Illustrated;300;180;Chicago;14,99
+105;The Hobbit;Houghton Mifflin;978-0-547-95122-1;Illustrated;300;160;New York;14,99
+105;The Hobbit;Houghton Mifflin;978-0-547-95122-1;Illustrated;300;125;Portland;14,99
+106;The Catcher in the Rye;Little Brown;978-0-316-76948-0;Reprint;234;120;New York;11,50
+106;The Catcher in the Rye;Little Brown;978-0-316-76948-0;Reprint;234;85;Chicago;11,50
+106;The Catcher in the Rye;Little Brown;978-0-316-76948-0;Reprint;234;95;Los Angeles;11,50
+106;The Catcher in the Rye;Little Brown;978-0-316-76948-0;Reprint;234;70;Miami;11,50
+107;Foundation;Del Rey;978-0-553-29335-7;Reissue;255;88;Chicago;8,99
+107;Foundation;Del Rey;978-0-553-29335-7;Reissue;255;120;Seattle;8,99
+107;Foundation;Del Rey;978-0-553-29335-7;Reissue;255;75;Boston;8,99
+107;Foundation;Del Rey;978-0-553-29335-7;Reissue;255;95;San Francisco;8,99
+108;The Handmaid's Tale;Anchor Books;978-0-385-49081-8;Reprint;311;175;Seattle;10,99
+108;The Handmaid's Tale;Anchor Books;978-0-385-49081-8;Reprint;311;145;New York;10,99
+108;The Handmaid's Tale;Anchor Books;978-0-385-49081-8;Reprint;311;120;Chicago;10,99
+108;The Handmaid's Tale;Anchor Books;978-0-385-49081-8;Reprint;311;105;Portland;10,99
+109;Sapiens;Harper Perennial;978-0-06-231609-7;1st;464;305;Boston;16,99
+109;Sapiens;Harper Perennial;978-0-06-231609-7;1st;464;250;New York;16,99
+109;Sapiens;Harper Perennial;978-0-06-231609-7;1st;464;220;San Francisco;16,99
+109;Sapiens;Harper Perennial;978-0-06-231609-7;1st;464;180;Seattle;16,99
+110;The Name of the Wind;DAW;978-0-7564-0407-9;10th Anniversary;662;142;Austin;19,99
+110;The Name of the Wind;DAW;978-0-7564-0407-9;10th Anniversary;662;185;Chicago;19,99
+110;The Name of the Wind;DAW;978-0-7564-0407-9;10th Anniversary;662;165;New York;19,99
+110;The Name of the Wind;DAW;978-0-7564-0407-9;10th Anniversary;662;125;Denver;19,99
+111;The Martian;Crown Publishing;978-0-8041-3902-1;Reprint;387;198;New York;15,50
+111;The Martian;Crown Publishing;978-0-8041-3902-1;Reprint;387;165;Los Angeles;15,50
+111;The Martian;Crown Publishing;978-0-8041-3902-1;Reprint;387;145;Seattle;15,50
+111;The Martian;Crown Publishing;978-0-8041-3902-1;Reprint;387;120;Boston;15,50
+112;Good Omens;William Morrow;978-0-06-085398-3;Reprint;432;115;Chicago;13,75
+112;Good Omens;William Morrow;978-0-06-085398-3;Reprint;432;135;New York;13,75
+112;Good Omens;William Morrow;978-0-06-085398-3;Reprint;432;95;Portland;13,75
+112;Good Omens;William Morrow;978-0-06-085398-3;Reprint;432;110;San Francisco;13,75
+113;Project Hail Mary;Ballantine Books;978-0-593-35909-5;1st;496;275;Seattle;17,99
+113;Project Hail Mary;Ballantine Books;978-0-593-35909-5;1st;496;230;New York;17,99
+113;Project Hail Mary;Ballantine Books;978-0-593-35909-5;1st;496;195;Chicago;17,99
+113;Project Hail Mary;Ballantine Books;978-0-593-35909-5;1st;496;165;Boston;17,99
+114;The Night Circus;Anchor Books;978-0-307-74442-5;Reprint;516;130;Boston;14,25
+114;The Night Circus;Anchor Books;978-0-307-74442-5;Reprint;516;145;New York;14,25
+114;The Night Circus;Anchor Books;978-0-307-74442-5;Reprint;516;110;Seattle;14,25
+114;The Night Circus;Anchor Books;978-0-307-74442-5;Reprint;516;95;Portland;14,25
+115;A Game of Thrones;Bantam;978-0-553-57340-4;Mass Market;835;185;Austin;12,99
+115;A Game of Thrones;Bantam;978-0-553-57340-4;Mass Market;835;220;New York;12,99
+115;A Game of Thrones;Bantam;978-0-553-57340-4;Mass Market;835;195;Chicago;12,99
+115;A Game of Thrones;Bantam;978-0-553-57340-4;Mass Market;835;160;Seattle;12,99
