@@ -2,8 +2,8 @@
 What are the most popular books in each city?
 Which is the most bought book?
 Which book is least preferred by the readers?
-Íàñêîëüêî ïðîäàæè îäíîé è òîé æå êíèãè îòëè÷àþòñÿ â ðàçíûõ ãîðîäàõ? (Íàéòè êíèãó ñ íàèáîëüøèì ðàçáðîñîì â ïðîäàæàõ)
-Åñòü ëè êîððåëÿöèÿ ìåæäó öåíîé êíèãè è êîëè÷åñòâîì ïðîäàæ â ðàçíûõ ãîðîäàõ? (Íàéòè êíèãè, ãäå â äîðîãèõ ãîðîäàõ ïðîäàþòñÿ ëó÷øå äåøåâûõ êíèã)
+How much do sales of the same book differ in different cities? (Find the book with the largest spread in sales)
+Is there a correlation between the price of a book and the number of sales in different cities? (Find books that sell better than cheap books in expensive cities)
 */
 
 
@@ -36,7 +36,7 @@ FROM
 GROUP BY Book_ID, Book_Name
 ORDER BY SUM(Sales) DESC
 
--- Íàñêîëüêî ïðîäàæè îäíîé è òîé æå êíèãè îòëè÷àþòñÿ â ðàçíûõ ãîðîäàõ? (Íàéòè êíèãó ñ íàèáîëüøèì ðàçáðîñîì â ïðîäàæàõ)
+-- How much do sales of the same book differ in different cities? (Find the book with the largest spread in sales)
 SELECT Book_Name, SalesDifference AS diff, RANK() OVER(ORDER BY SalesDifference DESC) AS TopSales
 FROM (
 SELECT Book_ID, Book_Name, MAX(Sales) AS MaxSales, MIN(Sales) AS MinSales, MAX(Sales) - MIN(Sales) as SalesDifference
@@ -44,7 +44,7 @@ FROM books
 GROUP BY Book_ID, Book_Name
 ) AS extremums
 
--- Åñòü ëè êîððåëÿöèÿ ìåæäó öåíîé êíèãè è êîëè÷åñòâîì ïðîäàæ â ðàçíûõ ãîðîäàõ? (Íàéòè êíèãè, ãäå â äîðîãèõ ãîðîäàõ ïðîäàþòñÿ ëó÷øå äåøåâûõ êíèã)
+-- Is there a correlation between the price of a book and the number of sales in different cities? (Find books that sell better than cheap books in expensive cities)
 WITH CityStats AS (
 	SELECT
 		City, AVG(Price) AS AvgCityPrice
@@ -82,3 +82,4 @@ SELECT City, ExpensiveSales, CheapSales, CAST(FLOOR(Ratio * 100) - 100  AS varch
 	END AS Result
 
 FROM Comparison
+
